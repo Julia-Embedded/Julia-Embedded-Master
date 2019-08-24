@@ -1,7 +1,7 @@
 # Julia-Embedded-Master
 
 <p align="center">
-  <img src="https://github.com/julia-embedded/Julia-Embedded-Master/blob/master/logo/Julia-Embedded-Logo-small.png" alt="Julia-Embedded-Logo" height="400"/>
+  <img src="https://github.com/Julia-Embedded/Julia-Embedded-Master/blob/master/logo/Julia-Embedded-logo-small.png" alt="Julia-Embedded-Logo" height="350"/>
 </p>
 
 An organization for bringing Julia to embedded processors.
