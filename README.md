@@ -27,7 +27,7 @@ However, this work will be useful for any embedded system.
 # Discourse Forum
 https://discourse.julialang.org/t/bring-julia-code-to-embedded-hardware-arm/19979/27
 
-### Cross-compiling and static compilation 
+# Notes on Cross-compiling and static compilation 
 
 Here are some miscellaneous notes on cross-compiling and static compilation in Julia:
 
@@ -46,6 +46,4 @@ Here are some miscellaneous notes on cross-compiling and static compilation in J
 * *Global variables* -- A lot of code gets compiled with global variables, and these get compiled to a direct pointer. One way to handle this is with a serialize/deserialize approach. Prototype described [here](https://github.com/tshort/ExportWebAssembly.jl/issues/13).
 
 * *Initialization* -- If `libjulia` is used, some init code needs to be run to set up GC and other things. It's not clear how to do that from outside. May need PR's to base Julia to help here.
-
-cc @jpsamaroo
 
