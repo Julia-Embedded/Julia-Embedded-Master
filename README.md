@@ -37,7 +37,7 @@ Here are some miscellaneous notes on cross-compiling and static compilation in J
 
 * *Codegen advances* -- Jameson is working on changes to allow the CUDAnative approach to compile more code: https://github.com/JuliaLang/julia/pull/25984.
 
-* *LLVM support* -- Julia's version of LLVM doesn't include targets of interest for embedded applications.
+* *LLVM support* -- Julia's version of LLVM doesn't include targets of interest for embedded applications.(https://github.com/maleadt/LLVM.jl)
 
 * *libjulia* -- If used, `libjulia` will need to be cross-compiled. Another option is to write a more minimal version of `libjulia` (hopefully in Julia), and swap out the `ccall`s to `libjulia` functions as needed. 
 
@@ -56,6 +56,7 @@ https://github.com/JuliaInterop/CxxWrap.jl
 
 https://github.com/JuliaInterop/libcxxwrap-julia
 
+https://github.com/JuliaInterop/Cxx.jl
 
 
 ## Some possibly useful repositories from other languages:
