@@ -58,6 +58,9 @@ https://github.com/JuliaInterop/libcxxwrap-julia
 
 https://github.com/JuliaInterop/Cxx.jl
 
+https://github.com/JuliaComputing/llvm-cbe
+
+https://github.com/maleadt/LLVM.jl
 
 ## Some possibly useful repositories from other languages:
 https://github.com/uraimo/buildSwiftOnARM
