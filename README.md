@@ -47,3 +47,8 @@ Here are some miscellaneous notes on cross-compiling and static compilation in J
 
 * *Initialization* -- If `libjulia` is used, some init code needs to be run to set up GC and other things. It's not clear how to do that from outside. May need PR's to base Julia to help here.
 
+## Some possibly useful repositories from other languages:
+https://github.com/uraimo/buildSwiftOnARM
+https://github.com/uraimo/SwiftyGPIO
+https://github.com/rust-embedded/docs
+https://github.com/micropython/micropython
